@@ -1528,7 +1528,6 @@ f = open(time.strftime("%Y%m%d_" + file_name + ".txt"),"w+")
 new_password = " ".join([nouns[random.randrange(len(nouns))] for i in range(5)])
 f.write(new_password)
 print(new_password)
-print("Success")
 
 
 f.close()
